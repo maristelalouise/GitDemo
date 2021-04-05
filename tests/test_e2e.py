@@ -37,4 +37,4 @@ class TestOne(BaseClass):
 
         log.info("Text received from application is " + textMatch)
 
-        assert ("Success! Thankasadfdfdfdsa you! " in textMatch)
+        assert ("Success! Thanksss you! " in textMatch)
