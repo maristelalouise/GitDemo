@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="10.349" timestamp="2021-03-31T06:15:58.067759" hostname="CUP-MNL-L760"><testcase classname="test_e2e.TestOne" name="test_e2e" time="10.303" /></testsuite></testsuites>

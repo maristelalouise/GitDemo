@@ -242,37 +242,13 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
     notFoundMessage.hidden = !allRowsHidden;
 }
 </script>
-    <h1>test_e2e_jenkins_report.html</h1>
-    <p>Report generated on 31-Mar-2021 at 13:27:10 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <h1>test_e2e</h1>
+    <p>Report generated on 31-Mar-2021 at 13:20:54 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
-        <td>BUILD_ID</td>
-        <td>40</td></tr>
-      <tr>
-        <td>BUILD_NUMBER</td>
-        <td>40</td></tr>
-      <tr>
-        <td>BUILD_TAG</td>
-        <td>jenkins-SeleniumPythonTesting-40</td></tr>
-      <tr>
-        <td>BUILD_URL</td>
-        <td><a href="http://localhost:8080/job/SeleniumPythonTesting/40/" target="_blank">http://localhost:8080/job/SeleniumPythonTesting/40/</a></td></tr>
-      <tr>
-        <td>EXECUTOR_NUMBER</td>
-        <td>0</td></tr>
-      <tr>
         <td>JAVA_HOME</td>
         <td>C:\Program Files\Java\jdk-11.0.10\</td></tr>
-      <tr>
-        <td>JENKINS_URL</td>
-        <td><a href="http://localhost:8080/" target="_blank">http://localhost:8080/</a></td></tr>
-      <tr>
-        <td>JOB_NAME</td>
-        <td>SeleniumPythonTesting</td></tr>
-      <tr>
-        <td>NODE_NAME</td>
-        <td>master</td></tr>
       <tr>
         <td>Packages</td>
         <td>{"pluggy": "0.13.1", "py": "1.10.0", "pytest": "6.2.2"}</td></tr>
@@ -284,13 +260,10 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>{"html": "3.1.1", "metadata": "1.11.0"}</td></tr>
       <tr>
         <td>Python</td>
-        <td>3.9.2</td></tr>
-      <tr>
-        <td>WORKSPACE</td>
-        <td>C:\Users\mflores\PycharmProjects\PythonSelFramework_E2E</td></tr></table>
+        <td>3.9.2</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 11.15 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>0 tests ran in 0.01 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -300,13 +273,4 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable" col="duration">Duration</th>
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
-          <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_e2e.py::TestOne::test_e2e</td>
-          <td class="col-duration">10.99</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>
+          <th colspan="4">No results found. Try to check the filters</th></tr></thead></table></body></html>
