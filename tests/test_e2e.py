@@ -37,5 +37,6 @@ class TestOne(BaseClass):
 
         log.info("Log info1: Text received from application is " + textMatch)
         log.info("Log info2: Text received from application is " + textMatch)
+        log.info("Log info2: Text received from application is " + textMatch)
 
         assert ("Success! Thanksss you! " in textMatch)
