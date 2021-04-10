@@ -35,6 +35,7 @@ class TestOne(BaseClass):
         textMatch = self.driver.find_element_by_css_selector("[class*='alert-success']").text
         confirmpage.getVerifySuccessText().text
 
-        log.info("Text received from application is " + textMatch)
+        log.info("Log info1: Text received from application is " + textMatch)
+        log.info("Log info2: Text received from application is " + textMatch)
 
         assert ("Success! Thanksss you! " in textMatch)

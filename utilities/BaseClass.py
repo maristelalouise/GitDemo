@@ -21,9 +21,9 @@ class BaseClass:
         logger.setLevel(logging.DEBUG)
         return logger
 
-    def verifyLinkPresence(self, text):
-        element = WebDriverWait(self.driver, 10).until(
-        EC.presence_of_element_located((By.LINK_TEXT, text)))
+    # def verifyLinkPresence(self, text):
+    #     element = WebDriverWait(self.driver, 10).until(
+    #     EC.presence_of_element_located((By.LINK_TEXT, text)))
 
     # def selectOptionByText(self,locator,text):
     #     sel = Select(locator)
